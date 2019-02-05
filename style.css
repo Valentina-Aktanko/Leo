@@ -32,7 +32,7 @@ shadow-wrapper {
 .container {
     width: 1280px;
     margin: 0 auto;
-    outline: 1px solid brown;
+    outline: 1px solid green;
 }
 
 .header {
@@ -257,11 +257,58 @@ shadow-wrapper {
 }
 
 .advantages {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    padding: 22px 70px 88px 132px;
+    padding: 28px 70px 88px 132px;
 }
 
 .shadowImg {
-    box-shadow: 0 0 15px #ccc;
+    box-shadow: 0 0 20px #ccc;
+    margin-right: 54px;
+}
+
+.choose {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose h3 {
+    color:  #4f4f4f;
+    font-size: 32.63px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.choose-list {
+    list-style-type: none;
+}
+
+.choose-list li {
+    color:  #8a8888;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 38px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.choose-list li:before {
+    content: '';
+    background: #e67624;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    left: 0;
+    top: 11px;
+
+}
+
+.fa-check {
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 3px;
 }
