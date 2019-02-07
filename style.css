@@ -25,14 +25,12 @@
     font-family: "SegoeWP";
 }
 
-shadow-wrapper {
-    box-shadow: 0 0 2px #cccccc;
-}
-
 .container {
     width: 1280px;
     margin: 0 auto;
-    outline: 1px solid green;
+    /*outline: 1px solid green;*/
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
 }
 
 .header {
@@ -261,6 +259,7 @@ shadow-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 28px 70px 88px 132px;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 .shadowImg {
@@ -286,7 +285,7 @@ shadow-wrapper {
 
 .choose-list li {
     color:  #8a8888;
-    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-size: 16px;
     font-weight: 300;
     line-height: 38px;
     padding-left: 30px;
@@ -312,3 +311,98 @@ shadow-wrapper {
     top: 15px;
     left: 3px;
 }
+
+.loginAndSubscribe {
+    box-sizing: border-box;
+    height: 167px;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 144px 35px 130px;
+}
+
+.forms {
+    width: 470px;
+    padding: 15px 16px 20px 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms h2 {
+    font-family: SegoeWP;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-bottom: 26px;
+}
+
+.login-form {
+    background-color: #e7771f;
+    margin-right: 50px;
+}
+
+.subscribe-form {
+    background-color: #00d5f3;
+}
+
+.form-fields {
+    height: 26px;
+    background-color:  #e8e8e8;
+    padding: 6px 12px;
+    color:  #4f4f4f;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    box-sizing: border-box;
+}
+
+.form-name {
+    width: 155px;
+    margin-right: 4px;
+}
+
+.form-pass {
+    width: 150px;
+    margin-right: 12px;
+}
+
+.form-email {
+    width: 265px;
+    margin-right: 49px;
+}
+
+.btn {
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    color:  rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.login-btn {
+    width: 94px;
+    background-color:  #444444;
+}
+.subscribe-btn {
+    background-color:  #029bb1;
+    width: 111px;
+}
+
+.footer {
+    height: 243px;
+    background: #282221 url("img/bg-footer.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 34px 175px;
+    box-sizing: border-box;
+}
+
+.footer-list {
+    list-style-type: none;
+    margin-right: 90px;
+
+}
+
+
+
