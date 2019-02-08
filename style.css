@@ -79,7 +79,7 @@
 
 .menu-item:hover {
     color: #12b367;
-    transition: all 0.5ms;
+    transition: all .5ms;
 }
 
 .banner {
@@ -103,7 +103,7 @@
 
 .banner-btn:hover {
     border: 3px solid rgba(255, 255, 255, 0.5);
-    transition: all 0.5ms;
+    transition: all .5ms;
 }
 
 .banner-btn:hover .banner-arrow {
@@ -398,11 +398,29 @@
     box-sizing: border-box;
 }
 
+.footer h2 {
+    color:  rgba(255, 255, 255, 0.8);
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+
 .footer-list {
     list-style-type: none;
     margin-right: 90px;
-
+    font-family: Arial;
+    color:  rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
 }
+
+.footer-list a:hover {
+    text-decoration: underline;
+    transition: all .5ms;
+}
+
 
 
 
